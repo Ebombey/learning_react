@@ -1,10 +1,15 @@
 import React from "react";
 import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Note from "./components/Note";
 
 function App() {
   return (
-    <div>
-      <h1 className="bg-black">Hello</h1>
+    <div className="w-full h-screen bg-black flex flex-col">
+      <Header />
+      <Note />
+      <Footer />
     </div>
   );
 }
