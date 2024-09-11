@@ -2,8 +2,8 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="bg-yellow-500 px-7 py-5 text-white w-full">
-      <h1 className="text-2xl">Keeper</h1>
+    <div className="w-full bg-yellow-400 py-4 px-8">
+      <h1 className="text-4xl text-white">Keeper</h1>
     </div>
   );
 }

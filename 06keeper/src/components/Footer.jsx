@@ -2,10 +2,10 @@ import React from "react";
 
 function Footer() {
   const date = new Date();
-
+  const year = date.getFullYear();
   return (
-    <div className="justify-self-end w-full absolute bottom-2 text-center">
-      <p className="text-white">Copyright&copy; {date.getFullYear()} </p>
+    <div className="w-full text-center absolute bottom-3">
+      <span className="text-white">Copyright &copy;{year}</span>
     </div>
   );
 }
