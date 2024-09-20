@@ -22,7 +22,7 @@ function App() {
   }
 
   return (
-    <>
+    <div className="bg-[#e0e0e0] w-full h-screen">
       <Header />
       <CreateArea onAdd={addNote} />
       {notes.map((noteItem, index) => {
@@ -37,7 +37,7 @@ function App() {
         );
       })}
       <Footer />
-    </>
+    </div>
   );
 }
 
